@@ -9,8 +9,8 @@ angular.module('clients').controller('ClientsController', ['$scope', '$statePara
 		$scope.create = function() {
 			// Create new Client object
 			var client = new Clients ({
-				name: this.name,
-        company: this.company,
+				companyname: this.companyname,
+        contactname: this.contactname,
         address: this.address,
         email: this.email,
         phone: this.phone,
